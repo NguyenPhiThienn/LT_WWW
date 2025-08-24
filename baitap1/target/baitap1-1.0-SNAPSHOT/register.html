@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+        <html lang="en">
+        <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Register Form</title>
+    <style>
+        body {
+            font-family: "Times New Roman", sans-serif;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #3c444c;
+            color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            width: 400px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            background: #fff;
+            color: #000;
+        }
+
+        .name-fields {
+            display: flex;
+            gap: 10px;
+        }
+
+        .name-fields input {
+            flex: 1;
+        }
+
+        button {
+            background-color: #fff;
+            color: #000;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ddd;
+        }
+
+        .note {
+            font-size: 12px;
+            color: #ccc;
+            margin-top: -10px;
+            margin-bottom: 15px;
+        }
+
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>REGISTER</h2>
+    <form action="register" method="POST">
+        <label>Name <span class="required">*</span></label>
+        <div class="name-fields">
+            <input type="text" placeholder="First" name="First">
+            <input type="text" placeholder="Last" name="Last">
+        </div>
+
+        <label>Username <span class="required">*</span></label>
+        <input type="text" name="Username">
+
+        <label>E-mail <span class="required">*</span></label>
+        <input type="email" name="email">
+
+        <label>Password <span class="required">*</span></label>
+        <input type="password" name="Password">
+
+        <label>Facebook</label>
+        <input type="text" placeholder="Enter your Facebook profile URL" name="Facebook">
+
+        <label>Short Bio</label>
+        <textarea rows="3" placeholder="Share a little information about yourself." name="Bio"></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
+</title>
+</head>
+<body>
+
+</body>
+</html>
