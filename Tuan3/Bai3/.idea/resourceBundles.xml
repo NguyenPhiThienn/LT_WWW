@@ -7,6 +7,8 @@
     <custom-resource-bundle>
       <file value="file://$PROJECT_DIR$/src/main/resources/resource.properties" />
       <file value="file://$PROJECT_DIR$/src/main/resources/resource_en.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/resource_ja.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/resource_ko.properties" />
       <file value="file://$PROJECT_DIR$/src/main/resources/resource_vn.properties" />
       <base-name>resource</base-name>
     </custom-resource-bundle>

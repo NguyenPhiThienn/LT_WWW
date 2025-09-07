@@ -15,13 +15,26 @@
 <fmt:setBundle basename="resource" scope="session"/>
 <form action="login.jsp" method="POST">
     <fmt:message key="languageMessage"></fmt:message>
+
     <input type="radio" name="radLanguageCode" value="vi"
             <c:if test="${languageCode == 'vi'}"> checked</c:if> />
     <fmt:message key="vn"></fmt:message>
+
     <input type="radio" name="radLanguageCode" value="en"
             <c:if test="${languageCode == 'en'}"> checked</c:if> />
     <fmt:message key="en"></fmt:message>
+
+    <input type="radio" name="radLanguageCode" value="ja"
+            <c:if test="${languageCode == 'ja'}"> checked</c:if> />
+    <fmt:message key="ja"></fmt:message>
+
+    <input type="radio" name="radLanguageCode" value="ko"
+            <c:if test="${languageCode == 'ko'}"> checked</c:if> />
+    <fmt:message key="ko"></fmt:message>
+
     <input type="submit" name="submit" value="<fmt:message key='chooseButton'/>" />
+
+
     <table border="0">
         <tr>
             <td><fmt:message key="userName"/></td>
