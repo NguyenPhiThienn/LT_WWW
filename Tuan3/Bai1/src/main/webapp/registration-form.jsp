@@ -110,17 +110,20 @@
       <td>Date of Birth:</td>
       <td>
         <select name="day">
+          <option value="" selected disabled>Day</option>
           <% for (int i = 1; i <= 31; i++) { %>
           <option value="<%=i%>"><%=i%></option>
           <% } %>
         </select>
         <select name="month">
+          <option value="" selected disabled>Month</option>
           <option>Jan</option><option>Feb</option><option>Mar</option>
           <option>Apr</option><option>May</option><option>Jun</option>
           <option>Jul</option><option>Aug</option><option>Sep</option>
           <option>Oct</option><option>Nov</option><option>Dec</option>
         </select>
         <select name="year">
+          <option value="" selected disabled>Year</option>
           <% for (int i = 1980; i <= 2025; i++) { %>
           <option value="<%=i%>"><%=i%></option>
           <% } %>
@@ -172,7 +175,7 @@
     </tr>
     <tr>
       <td>Country:</td>
-      <td><input type="text" name="txtCountry" value="India"></td>
+      <td><input type="text" name="txtCountry" value="Viet Nam"></td>
     </tr>
     <tr>
       <td>Hobbies:</td>
