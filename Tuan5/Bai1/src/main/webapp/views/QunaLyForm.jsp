@@ -119,9 +119,5 @@
   <button type="button" onclick="submitBulkDelete()">Xóa đã chọn</button>
 </p>
 
-<div class="footer">
-  Nguyễn Hữu Phước Hải - 21018551 - DHKTPM17A
-</div>
-
 </body>
 </html>
